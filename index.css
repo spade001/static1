@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px;
+}
+
+/*First section*/
+.row1{
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.sec{
+    display: flex;
+    justify-content: center;
+}
+
+/*second section*/
+.row2{
+    margin-top: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 10rem 10rem ;
+    grid-template-areas:"img1 side1" "img1 side2";
+}
+.img1{
+    grid-area: img1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.side1{
+    grid-area: side1;
+}
+.side2{
+    grid-area: side2;
+}
+
+/*Third section*/
+.row3{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 14rem;
+}
+
+/*Forth section*/
+.row4{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+ 
+/*only for 1000px*/
+@media(max-width:1000px){
+    .row4{
+        flex-wrap: wrap;
+    }   
+}
+
+/*mobile view*/

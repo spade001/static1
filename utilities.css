@@ -1,0 +1,56 @@
+
+ .sec{
+    background-color: aqua;
+    height: 2rem;
+    border-radius: 1rem;
+   }
+.img1{
+    background-color: blue;
+    border-radius: 1rem;
+    
+}
+.img1 h1,p{
+    color:white ;
+    margin-left:1rem;
+    margin-bottom: 1rem;
+    display:inline-block;
+    padding-top: 2rem;
+    
+}
+.img1 span{
+    background-color: aqua;
+    border-radius: .4rem;
+    margin: .4rem;
+    
+}
+.side3 h1,p{
+    margin-left: -20px;
+    
+}
+.side1{
+  background-color: blueviolet;
+  border-radius: 1rem;
+}  
+.side2{
+    background-color: chartreuse;
+    border-radius: 1rem;
+}
+.img2{
+    background-color: rgb(23, 67, 67);
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+
+
+}
+.side3{
+    background-color: crimson;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.pic{
+    background-color: black; 
+     width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+}    
+        
