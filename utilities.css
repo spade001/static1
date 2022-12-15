@@ -1,32 +1,43 @@
-
+body{
+    
+background: linear-gradient(90deg, rgba(55,51,113,1) 15%, rgba(167,167,181,1) 100%, rgba(0,212,255,1) 100%);
+}
  .sec{
-    background-color: aqua;
+    background-color:#C0C0C0;
     height: 2rem;
     border-radius: 1rem;
    }
 .img1{
-    background-color: blue;
+    
     border-radius: 1rem;
     
 }
-.img1 h1,p{
+.img1con h1,.img1con p{
     color:white ;
     margin-left:1rem;
     margin-bottom: 1rem;
     display:inline-block;
-    padding-top: 2rem;
-    
 }
+.img1con{
+    padding-top: 12rem;
+    display: inline-block;
+}
+
 .img1 span{
     background-color: aqua;
     border-radius: .4rem;
     margin: .4rem;
     
 }
-.side3 h1,p{
-    margin-left: -20px;
+.side3 h1,.side3 p{
+    display: inline-block;
+    position: relative;
+    right: 20px;
+    
     
 }
+
+
 .side1{
   background-color: blueviolet;
   border-radius: 1rem;
@@ -35,17 +46,12 @@
     background-color: chartreuse;
     border-radius: 1rem;
 }
-.img2{
-    background-color: rgb(23, 67, 67);
-    border-bottom-left-radius: 1rem;
-    border-top-left-radius: 1rem;
 
-
-}
 .side3{
-    background-color: crimson;
+    background-color:#e3e1e2;
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;
+    
 }
 .pic{
     background-color: black; 
